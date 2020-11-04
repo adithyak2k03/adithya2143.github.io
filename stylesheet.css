@@ -1,0 +1,260 @@
+* { margin: 0px;
+    padding: 0;}
+#body {
+    min-height: 40px;
+    margin-left: 0.1%;
+    margin-left: 0.1%;
+    margin-top: 0.03%;
+    cursor: context-menu;
+
+}
+h6 {
+    visibility: hidden;
+    font-size: 0px;
+    color:grey;
+}
+h1 {
+    font-size: 140px;
+    font-family: Edwardian Script ITC, algerian;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-color: green;
+    border-width: 0px;  /*no border for saarang*/
+    border-style: double;
+    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px red,
+                 10px 10px 10px blue;
+}
+h1 a{
+    color: gold;
+    text-decoration: none;
+    cursor: context-menu;
+}
+h1 a:hover{
+    color: rgb(17,238,216);;
+    font-size:130px;
+    text-shadow: 5px 5px 5px green,
+                 10px 10px 10px white;
+    cursor: none;        
+}
+    
+div.event {
+    height: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: tahoma;
+}
+div.event ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+div.event ul li {
+    display: inline-block;
+    vertical-align: middle;
+    height: 180px;
+    margin: 50px 100px 0px 100px;
+    border: 0px blue solid;
+    height: 325px;
+    /*background-color: red;*/
+}
+div.event ul li a {
+    background-color: chocolate;
+    text-decoration:none;
+    color: white;
+    display: flex;
+    width: 208px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border: 1px green solid;
+    border-radius:100px;
+
+}
+div.event ul li a:hover {
+    color: black;
+    background-color:grey;
+    font-size: 30px;
+    background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+
+}
+div.event ul li img {
+    /*padding: 8px 0px 8px 0px;*/
+    /*padding: 0px;*/
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.header {
+    display: block;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 30px;
+
+}
+
+.header a {
+    
+    text-decoration: none;
+    color:white;
+    width: 1.1em;
+    font-size: 27px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+li {
+    display: inline;
+}
+
+ 
+.header a:hover {
+    background-color: green;
+    color: blue;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    height: 315px;
+    width: 245px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 31px 10px rgba(175, 8, 8, 0.75);
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg,yellow,grey,aqua);
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 150%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: white;
+    border-radius: 95px;
+    background-color:#ffcf79;
+    box-shadow: 0px 10px 31px 10px rgba(20, 240, 31, 0.932);
+
+}
+.container:hover .overlay {
+    opacity: 1;
+}
+.text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+}
+
+pre {
+    color: black; 
+    text-align: left;
+    margin-left: -80px;
+    margin-top: -30px;
+
+}
+
+pre p {
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(197, 46, 46);
+}
+
+div.contact {
+    display: block;
+    width: 100%;
+
+}
+
+div.footer {
+
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+
+}
+
+.footer a {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    position: fixed;
+    bottom: 20px;
+    /*right: 650px;*/
+    padding: 25px;
+    margin-bottom:-20px;
+    height:  20px;
+    background-color:goldenrod;
+    border-color: yellow;
+    opacity: 1.0;
+    border-radius: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 45%;
+
+    
+}
+.footer a:hover {
+    background-color: darkorange;
+    opacity: 0.5;
+
+}
+
+.footer ul {
+    display: block;
+    float: right;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    list-style-type : none;
+    float: right;
+    text-align:right;
+    background-color: grey;
+    opacity: 0.6;
+    height: 70px;
+
+    
+}
+
+.footer ul li {
+    background-color: grey;
+    opacity: 0.9;
+    height: 27px;
+}
+
+
+.footer ul li p {
+    
+background-color: yellowgreen;
+display: inline; 
+height: 160%;
+font-weight: bold;
+opacity: 1.0;
+
+}
+
+.footer ul li p:hover {
+background: red;
+color: yellow;
+opacity: 1.0;
+font-size: 1.2em;
+}    
